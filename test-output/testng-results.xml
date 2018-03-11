@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="4" ignored="0" total="9" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_21.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_21.png'height ='156' width='342'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_27.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_27.png'height ='156' width='342'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_35.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_35.png'height ='156' width='342'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\registrationPage12_03_2018_09_50_54.png'><img src'C:\eclipse-workspace\project\screenShots\registrationPage12_03_2018_09_50_54.png'height ='156' width='342'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyRegistrationSeccessful12_03_2018_09_50_54.png'><img src'C:\eclipse-workspace\project\screenShots\verifyRegistrationSeccessful12_03_2018_09_50_54.png'height ='156' width='342'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51031" started-at="2018-03-11T22:50:03Z" finished-at="2018-03-11T22:50:54Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="33181" started-at="2018-03-11T22:50:03Z" finished-at="2018-03-11T22:50:36Z">
+      <class name="pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="setUp" is-config="true" duration-ms="3989" started-at="2018-03-12T09:50:03Z" finished-at="2018-03-12T09:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="13118" started-at="2018-03-12T09:50:08Z" data-provider="loginData" finished-at="2018-03-12T09:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_21.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_21.png'height ='156' width='342'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="1" started-at="2018-03-12T09:50:21Z" data-provider="loginData" finished-at="2018-03-12T09:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Skipped
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="3" started-at="2018-03-12T09:50:21Z" data-provider="loginData" finished-at="2018-03-12T09:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Skipped
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="2" started-at="2018-03-12T09:50:21Z" data-provider="loginData" finished-at="2018-03-12T09:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Skipped
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="FAIL" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="5993" started-at="2018-03-12T09:50:21Z" data-provider="loginData" finished-at="2018-03-12T09:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_27.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_27.png'height ='156' width='342'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="1" started-at="2018-03-12T09:50:28Z" data-provider="loginData" finished-at="2018-03-12T09:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Skipped
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="1" started-at="2018-03-12T09:50:28Z" data-provider="loginData" finished-at="2018-03-12T09:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Skipped
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="FAIL" signature="verifyLoginWithInvalidCradentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="verifyLoginWithInvalidCradentials" duration-ms="7400" started-at="2018-03-12T09:50:28Z" data-provider="loginData" finished-at="2018-03-12T09:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada@bab.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data5575s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials.verifyLoginWithInvalidCradentials(TC001_verifyLoginWithInvalidCredentials.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_35.png'><img src'C:\eclipse-workspace\project\screenShots\verifyLoginWithInvalidCradentials12_03_2018_09_50_35.png'height ='156' width='342'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCradentials -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials@e45f292]" name="endTest" is-config="true" duration-ms="1145" started-at="2018-03-12T09:50:35Z" finished-at="2018-03-12T09:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="17807" started-at="2018-03-11T22:50:36Z" finished-at="2018-03-11T22:50:54Z">
+      <class name="pageObjects.project.registration.TC002_verifyRegistrationFailed">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageObjects.project.registration.TC002_verifyRegistrationFailed@64bf3bbf]" name="setUp" is-config="true" duration-ms="11297" started-at="2018-03-12T09:50:36Z" finished-at="2018-03-12T09:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyRegistrationSeccessful()[pri:0, instance:pageObjects.project.registration.TC002_verifyRegistrationFailed@64bf3bbf]" name="verifyRegistrationSeccessful" duration-ms="6212" started-at="2018-03-12T09:50:48Z" finished-at="2018-03-12T09:50:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at pageObjects.project.registration.TC002_verifyRegistrationFailed.verifyRegistrationSeccessful(TC002_verifyRegistrationFailed.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\registrationPage12_03_2018_09_50_54.png'><img src'C:\eclipse-workspace\project\screenShots\registrationPage12_03_2018_09_50_54.png'height ='156' width='342'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\project\screenShots\verifyRegistrationSeccessful12_03_2018_09_50_54.png'><img src'C:\eclipse-workspace\project\screenShots\verifyRegistrationSeccessful12_03_2018_09_50_54.png'height ='156' width='342'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationSeccessful -->
+      </class> <!-- pageObjects.project.registration.TC002_verifyRegistrationFailed -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

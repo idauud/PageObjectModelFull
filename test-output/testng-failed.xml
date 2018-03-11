@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="pageObjects.project.config.Listeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="endTest"/>
+          <include name="verifyLoginWithInvalidCradentials" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="pageObjects.project.registration.TC002_verifyRegistrationFailed">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyRegistrationSeccessful"/>
+        </methods>
+      </class> <!-- pageObjects.project.registration.TC002_verifyRegistrationFailed -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

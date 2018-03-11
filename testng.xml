@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ 
+ 	<listeners>
+  	<listener class-name="pageObjects.project.config.Listeners" />
+  	</listeners>
+  
+   <test name="Test1">
+      <classes>
+      
+      <class name="pageObjects.project.homepage.TC001_verifyLoginWithInvalidCredentials"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+ 
+  <test name="Test2">
+      <classes>
+       <class name="pageObjects.project.registration.TC002_verifyRegistrationFailed"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

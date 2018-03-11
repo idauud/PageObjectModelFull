@@ -1,0 +1,15 @@
+2018-03-12 09:01:49 INFO  TestBase:70 - closing browser
+2018-03-12 09:01:49 INFO  TestBase:46 - creating the object of chrome
+2018-03-12 09:02:01 INFO  TestBase:45 - navigating to registration page here we i proving email address
+2018-03-12 09:02:04 INFO  TestBase:38 - navigating to registration page from homepage
+2018-03-12 09:02:08 INFO  TestBase:42 - its to long form so cant complete it to failing the test
+2018-03-12 09:02:08 INFO  TestBase:31 - On test Failure function is called for verifyRegistrationSeccessful
+2018-03-12 09:02:08 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyRegistrationSeccessful
+2018-03-12 09:11:19 INFO  TestBase:70 - closing browser
+2018-03-12 09:11:19 INFO  TestBase:33 - ******************************************************************8
+2018-03-12 09:11:19 INFO  TestBase:47 - creating the object of chrome
+2018-03-12 09:11:32 INFO  TestBase:45 - navigating to registration page here we i proving email address
+2018-03-12 09:11:34 INFO  TestBase:36 - navigating to registration page from homepage
+2018-03-12 09:11:38 INFO  TestBase:40 - its to long form so cant complete it to failing the test
+2018-03-12 09:11:38 INFO  TestBase:31 - On test Failure function is called for verifyRegistrationSeccessful
+2018-03-12 09:11:38 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyRegistrationSeccessful

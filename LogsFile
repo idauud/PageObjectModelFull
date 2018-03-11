@@ -1,0 +1,50 @@
+2018-03-12 09:29:36 INFO  TestBase:70 - closing browser
+2018-03-12 09:29:36 INFO  TestBase:33 - ******************************************************************8
+2018-03-12 09:29:36 INFO  TestBase:47 - creating the object of chrome
+2018-03-12 09:29:49 INFO  TestBase:45 - navigating to registration page here we i proving email address
+2018-03-12 09:29:51 INFO  TestBase:36 - navigating to registration page from homepage
+2018-03-12 09:29:55 INFO  TestBase:40 - its to long form so cant complete it to failing the test
+2018-03-12 09:29:55 INFO  TestBase:31 - On test Failure function is called for verifyRegistrationSeccessful
+2018-03-12 09:29:55 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyRegistrationSeccessful
+2018-03-12 09:35:57 INFO  TestBase:70 - closing browser
+2018-03-12 09:35:57 INFO  TestBase:33 - ******************************************************************8
+2018-03-12 09:35:57 INFO  TestBase:47 - creating the object of chrome
+2018-03-12 09:36:08 INFO  TestBase:45 - navigating to registration page here we i proving email address
+2018-03-12 09:36:10 INFO  TestBase:36 - navigating to registration page from homepage
+2018-03-12 09:36:12 INFO  TestBase:31 - On test Failure function is called for verifyRegistrationSeccessful
+2018-03-12 09:36:12 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyRegistrationSeccessful
+2018-03-12 09:44:34 INFO  TestBase:57 - reading user data from the data provider
+2018-03-12 09:44:44 INFO  TestBase:54 - calling the login function
+2018-03-12 09:44:48 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:44:48 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:44:50 INFO  TestBase:54 - calling the login function
+2018-03-12 09:44:53 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:44:53 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:44:56 INFO  TestBase:54 - calling the login function
+2018-03-12 09:44:59 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:44:59 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:45:00 INFO  TestBase:70 - closing browser
+2018-03-12 09:50:07 INFO  TestBase:57 - reading user data from the data provider
+2018-03-12 09:50:17 INFO  TestBase:54 - calling the login function
+2018-03-12 09:50:21 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:50:21 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:50:21 INFO  TestBase:31 - On test Failure function is called for verifyLoginWithInvalidCradentials
+2018-03-12 09:50:21 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyLoginWithInvalidCradentials
+2018-03-12 09:50:24 INFO  TestBase:54 - calling the login function
+2018-03-12 09:50:27 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:50:27 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:50:27 INFO  TestBase:31 - On test Failure function is called for verifyLoginWithInvalidCradentials
+2018-03-12 09:50:27 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyLoginWithInvalidCradentials
+2018-03-12 09:50:31 INFO  TestBase:54 - calling the login function
+2018-03-12 09:50:35 INFO  TestBase:44 - provinding the login cradentials as //ada@bab.com//data5575s
+2018-03-12 09:50:35 INFO  TestBase:45 - checking for varification if the login is failed
+2018-03-12 09:50:35 INFO  TestBase:31 - On test Failure function is called for verifyLoginWithInvalidCradentials
+2018-03-12 09:50:35 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyLoginWithInvalidCradentials
+2018-03-12 09:50:36 INFO  TestBase:70 - closing browser
+2018-03-12 09:50:36 INFO  TestBase:33 - ******************************************************************8
+2018-03-12 09:50:36 INFO  TestBase:47 - creating the object of chrome
+2018-03-12 09:50:48 INFO  TestBase:45 - navigating to registration page here we i proving email address
+2018-03-12 09:50:50 INFO  TestBase:36 - navigating to registration page from homepage
+2018-03-12 09:50:54 INFO  TestBase:40 - its to long form so cant complete it to failing the test
+2018-03-12 09:50:54 INFO  TestBase:31 - On test Failure function is called for verifyRegistrationSeccessful
+2018-03-12 09:50:54 INFO  TestBase:32 - Taking the screenshot of the failed testcase : verifyRegistrationSeccessful
